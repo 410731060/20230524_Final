@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>期末</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="menu">
+      <nav>
+        <a href="index.html" style="animation-delay: 0.2s" target="_self"><i class="fa fa-user-circle" aria-hidden="true"></i> 關於我</a>
+        <a href="https://410731060.github.io/20230521_final_h5p/vid.html" style="animation-delay: 0.3s" target="z1"><i class="fa fa-book" aria-hidden="true" target="_blank"></i> 教學內容</a>
+        <a href="https://410731060.github.io/2023mid-term/" style="animation-delay: 0.4s" target="z1"><i class="fa fa-bookmark" aria-hidden="true"></i> 課程單元</a>
+        <a href="https://410731060.github.io/20230521_h5p_2/Guess%20the%20Answer.html" style="animation-delay: 0.5s" target="z1"><i class="fa fa-podcast" aria-hidden="true"></i> h5p互動</a>
+      </nav>
+    </div>
+    <div class="aboutme">
+      <div class="left">
+
+      </div>
+      <div class="midleft">
+
+      </div>
+      <div class="midright">
+        <div class="main">
+          <iframe name="z1" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <h1>馮禹豪</h1><div class="loading">
+          <svg width="64px" height="48px">
+              <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+            <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+          </svg>
+        </div>
+        <h3>淡江大學</h3>
+        <h3>教育科技系 2-B</h3>
+        <h3>互動程式設計</h3>
+      </div>
+    </div>
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
